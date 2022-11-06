@@ -189,11 +189,14 @@ text-align: center;
 
 /* about us */
 .about-us {
-background-color: #F5F5F5;
+background-color: #FFFFFF;
 display: flex;}
 
 .about-us-svg{
-    padding: 25px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
@@ -230,7 +233,7 @@ font-style: normal;
 /* works */
 
 .works{
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 
 .works.section {
@@ -335,7 +338,7 @@ gap: 10px;
 /* Постійні клієнти */
 
 .clients {
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 
 .clients-title {
@@ -357,7 +360,11 @@ gap: 10px;
 
 .clients-saits{
     display: inline-block;
-    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    width: 170px;
     fill:#AFB1B8;
     border: solid 1px #AFB1B8;
     border-radius: 4px;
@@ -510,7 +517,6 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
         }
 
 .our-work-list:hover, .our-work-list:focus{
-    border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }    
 
